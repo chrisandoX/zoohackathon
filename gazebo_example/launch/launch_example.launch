@@ -6,6 +6,7 @@
     <!-- more default parameters can be changed here -->
   </include>
 
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
   <!-- Spawn a robot into Gazebo Xacro -->
   <group ns="plane_xacro_default">
     <!-- Convert an xacro and put on parameter server -->

@@ -13,6 +13,10 @@
         <robotBaseFrame>${name}_link</robotBaseFrame>
       </plugin>
     </gazebo>
+
+    <gazebo reference="${name}_link">
+      <gravity>0</gravity>
+    </gazebo>
     <link name="${name}_link">
       <inertial>
         <mass value="1"/>

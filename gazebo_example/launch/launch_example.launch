@@ -12,7 +12,7 @@
     <param name="robot_description" command="$(find xacro)/xacro $(find gazebo_example)/models/xacro/example_robot.urdf.xacro --inorder" />
 
     <!-- Spawn a robot into Gazebo -->
-    <node name="spawn_xacro" pkg="gazebo_ros" type="spawn_model" args="-param robot_description -urdf -model plane_xacro" />
+    <node name="spawn_xacro" pkg="gazebo_ros" type="spawn_model" args="-param robot_description -z 3.0 -urdf -model plane_xacro" />
 
     <node name="controller_node_py" pkg="gazebo_example" type="controller_node.py" output="screen" />
   </group>

@@ -4,9 +4,13 @@
   <xacro:arg name="robot_name" default="plane_xacro_default"/>
   
   <xacro:macro name="plane_xacro" params="name:=robot">
-    <gazebo>
-      <plugin filename="libgazebo_plane.so" name="gazebo_plane">
-        <robotNamespace>${name}</robotNamespace>
+     <gazebo>
+      <plugin name="object_controller" filename="libgazebo_ros_planar_move.so">
+        <commandTopic>cmd_vel</commandTopic>
+        <odometryTopic>odom</odometryTopic>
+        <odometryFrame>odom</odometryFrame>
+        <odometryRate>20.0</odometryRate>
+        <robotBaseFrame>${name}_link</robotBaseFrame>
       </plugin>
     </gazebo>
     <link name="${name}_link">

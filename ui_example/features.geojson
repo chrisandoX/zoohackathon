@@ -1,0 +1,125 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "month": "January",
+        "probability": 121
+      },
+      "geometry": {
+        "coordinates": [
+          20.044495,
+          -15.99288
+        ],
+        "type": "Point"
+      },
+      "id": "51b6b86dbf1b3221ee0a4e76944b2a96"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "month": "March",
+        "probability": 20
+      },
+      "geometry": {
+        "coordinates": [
+          18.433451,
+          -15.080724
+        ],
+        "type": "Point"
+      },
+      "id": "7c3e4456c6ca661ea62d3a8ec01dd78f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "month": "February",
+        "probability": 100
+      },
+      "geometry": {
+        "coordinates": [
+          18.661,
+          -16.080203
+        ],
+        "type": "Point"
+      },
+      "id": "8cab1e1fb63cbd4ee0a6a55d48da94a2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "month": "January",
+        "probability": 40
+      },
+      "geometry": {
+        "coordinates": [
+          20.335757,
+          -15.80014
+        ],
+        "type": "Point"
+      },
+      "id": "933d4ed09836fb5ba1682efdc6d3eb86"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "month": "February",
+        "probability": 100
+      },
+      "geometry": {
+        "coordinates": [
+          18.369738,
+          -15.063147
+        ],
+        "type": "Point"
+      },
+      "id": "a03f775bae013fbbdbadfdd9880aa74b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "month": "February",
+        "probability": 50
+      },
+      "geometry": {
+        "coordinates": [
+          18.433451,
+          -15.010405
+        ],
+        "type": "Point"
+      },
+      "id": "b95aa5fccc9a1705e8ec55485fa9a45c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "month": "March",
+        "probability": 20
+      },
+      "geometry": {
+        "coordinates": [
+          20.226534,
+          -16.071456
+        ],
+        "type": "Point"
+      },
+      "id": "cb7ede1baaa86f4fb7bb94e8807e065d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "month": "February",
+        "probability": 90
+      },
+      "geometry": {
+        "coordinates": [
+          19.525684,
+          -15.098301
+        ],
+        "type": "Point"
+      },
+      "id": "e302d3850454e7c5e0e79e77e43b5343"
+    }
+  ],
+  "type": "FeatureCollection"
+}
